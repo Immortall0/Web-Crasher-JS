@@ -1,8 +1,12 @@
-function spamMassiveText(iterations = 10000, textSize = 1000) {
-    const spamText = 'لُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗'.repeat(textSize); 
+// Massive Text Spammer (for testing!)
+function spamMassiveText(iterations = 1000000, textSize = 1000) {
+    const spamText = 'لُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗'.repeat(textSize); // Example: 1000-character text
+    for (let i = 0; i < iterations; i++) {
         console.log(spamText);
-       
+        // If you want to send it somewhere else, replace console.log with your function:
+        // sendToServer(spamText);
     }
 }
 
+// Usage: spam 10,000 texts, each 1,000 characters long
 spamMassiveText();
