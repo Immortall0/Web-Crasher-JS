@@ -1,6 +1,6 @@
 // Massive Text Spammer (for testing!)
-function spamMassiveText(iterations = 1000000, textSize = 1000) {
-    const spamText = 'لُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗'.repeat(textSize); // Example: 1000-character text
+function spamMassiveText(iterations = 999999999999999999, textSize = 999999) {
+    const spamText = 'لُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗لُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗لُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗لُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗لُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗لُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗لُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗لُلُصّبُلُلصّبُررً ॣ ॣh ॣ ॣ冗'.repeat(textSize); // Example: 1000-character text
     for (let i = 0; i < iterations; i++) {
         console.log(spamText);
         // If you want to send it somewhere else, replace console.log with your function:
